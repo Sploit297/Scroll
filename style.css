@@ -1,0 +1,96 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.highScore {
+	position: absolute;
+	bottom: -10px;
+	left: 80%;
+	position: fixed;
+	font-family: arial;
+	font-size: 0.9em;
+	color: #ffffff;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: black;
+}
+.infinite {
+	width: 100%;
+	height: 770px;
+	background: #ff0;
+}
+.infinite div {
+	background: #000;
+	width: 100%;
+	height: 100%;
+}
+.infinite div p {
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+	font-size: 10em;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	color: #ffffff;
+	transform: translateY(-50%);
+}
+.infinite div:nth-child(7n + 1) {
+	background: #FFC312;
+}
+.infinite div:nth-child(7n + 2) {
+	background: #C4E538;
+}
+.infinite div:nth-child(7n + 3) {
+	background: #12CBC4;
+}
+.infinite div:nth-child(7n + 4) {
+	background: #FDA7DF;
+}
+.infinite div:nth-child(7n + 5) {
+	background: #ED4C67;
+}
+.infinite div:nth-child(7n + 6) {
+	background: #F79F1F;
+}
+.infinite div:nth-child(7n + 7) {
+	background: #A3CB38;
+}
+.infinite div:nth-child(7n + 8) {
+	background: #1289A7;
+}
+.infinite div:nth-child(7n + 9) {
+	background: #D980FA;
+}
+.infinite div:nth-child(7n + 10) {
+	background: #B53471;
+}
+.infinite div:nth-child(7n + 11) {
+	background: #EE5A24;
+}
+.infinite div:nth-child(7n + 12) {
+	background: #009432;
+}
+.infinite div:nth-child(7n + 13) {
+	background: #0652DD;
+}
+.infinite div:nth-child(7n + 14) {
+	background: #9980FA;
+}
+.infinite div:nth-child(7n + 15) {
+	background: #833471;
+}
+.infinite div:nth-child(7n + 16) {
+	background: #EA2027;
+}
+.infinite div:nth-child(7n + 17) {
+	background: #006266;
+}
+.infinite div:nth-child(7n + 18) {
+	background: #1B1464;
+}
+.infinite div:nth-child(7n + 19) {
+	background: #5758BB;
+}
+.infinite div:nth-child(7n + 20) {
+	background: #6F1E51;
+}

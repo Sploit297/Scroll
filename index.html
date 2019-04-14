@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+	<script type="text/javascript">
+	 var num = 0
+	</script>
+	<head>
+		<title>Scroll! - 0</title>
+		<link rel="stylesheet" type="text/css" href="style.css"
+	</head>
+	<body>
+	<!-- <div class="highScore">
+			<p id="highScoreText">High Score: 0</p>
+		</div> -->
+		<audio autoplay id="music">
+			<source src="music.mp3" type="audio/mpeg"></source>
+		</audio>
+		<script type="text/javascript">
+			var audio = document.getElementById("music");
+			audio.volume = 0.1;
+		</script>
+		<div class="infinite">
+				<div></div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		<script type="text/javascript">
+			$(window).scroll(function(){
+				if($(window).scrollTop() >= $(document).height() - $(window).height() - 50){
+					num = num + 1;
+					$('.infinite').append('<div><p>'+num+'</p></div>');
+				 	document.title = "Scroll! - " + num
+				}
+			})
+		</script>
+	</body>
+</html>
