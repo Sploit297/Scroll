@@ -1,0 +1,16 @@
+{
+  "name": "Scroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "Sploit",
+  "license": "ISC",
+  "homepage": "https://sploit297.github.io/Scroll",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
